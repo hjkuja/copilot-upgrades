@@ -34,9 +34,8 @@ When given a goal:
 
 Sub-Agent Registry:
 The following sub-agents are available for delegation:
-- `research.agent.md` — for analysis, discovery, and information gathering tasks (read-only; produces structured reports with findings, risks, and recommendations)
-- `implementation.agent.md` — for scoped coding, editing, and implementation tasks (executes specific, well-defined coding changes within defined boundaries)
-- `.NET Upgrader` (`agents/dotnet/dotnet-upgrader.md`) — for C#/.NET upgrade and migration tasks (handles framework upgrades, NuGet package updates, and .NET modernization)
+- Research agent — for analysis, discovery, and information gathering tasks (read-only; produces structured reports with findings, risks, and recommendations)
+- Implementation agent — for scoped coding, editing, and implementation tasks (executes specific, well-defined coding changes within defined boundaries)
 
 Delegation Framework:
 Each delegation to a sub-agent must include:
