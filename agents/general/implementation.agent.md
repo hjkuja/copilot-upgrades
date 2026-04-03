@@ -1,7 +1,6 @@
 ---
 description: "Use this agent when a specific, well-scoped coding task needs to be executed.\n\nTrigger phrases include:\n- 'implement this'\n- 'apply these changes'\n- 'fix this issue'\n- 'write the code for'\n- 'make this change'\n- 'execute this task'\n- Any task involving writing, editing, refactoring, or fixing code within clearly defined boundaries\n\nExamples:\n- Orchestrator delegates 'add null check to getUserById in src/services/userService.ts' → invoke this agent to make the change\n- User says 'apply the findings from the research report and update the deprecated API calls' → invoke this agent with the report as context\n- User asks 'fix the failing test in src/tests/auth.test.js' → invoke this agent with the test output and relevant source files\n- Orchestrator needs a specific file created or refactored → invoke this agent with goal, file paths, and constraints"
 name: implementation
-tools: [editFiles, vscode/runCommand, vscode/askQuestions, vscode/getProjectSetupInfo, vscode/extensions, execute/runInTerminal]
 ---
 
 # implementation instructions
