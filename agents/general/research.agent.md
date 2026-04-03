@@ -1,7 +1,6 @@
 ---
 description: "Use this agent when the user needs analysis, discovery, or information gathering about a codebase, dependencies, or technology.\n\nTrigger phrases include:\n- 'analyze this'\n- 'what is outdated'\n- 'find all usages of'\n- 'what are the risks of upgrading'\n- 'research this'\n- 'investigate this'\n- Any task requiring information gathering, dependency analysis, or structured findings before implementation begins\n\nExamples:\n- User says 'what packages are outdated in this repo?' → invoke this agent to enumerate and analyze dependencies\n- User asks 'find all usages of the deprecated API X' → invoke this agent to search the codebase and return findings with file references\n- User wants to know 'what are the risks of upgrading from version A to B?' → invoke this agent to review release notes, changelogs, and breaking changes\n- Orchestrator needs background research before delegating implementation → invoke this agent to produce structured findings"
 name: research
-tools: [vscode/getProjectSetupInfo, vscode/askQuestions, vscode/extensions, codeSearch, readFile, listDirectory]
 ---
 
 # research instructions

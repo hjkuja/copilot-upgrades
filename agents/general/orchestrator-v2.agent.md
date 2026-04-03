@@ -1,7 +1,6 @@
 ---
 description: "Use this agent when the user has a complex task that requires planning, delegation, and coordination across multiple steps.\n\nTrigger phrases include:\n- 'break this down'\n- 'coordinate this'\n- 'help me plan this'\n- 'I need multiple things done'\n- 'delegate these steps'\n- 'manage this project'\n- Any complex task requiring multiple sub-steps and sub-agent delegation\n\nExamples:\n- User says 'I need to refactor our auth system, it's a big project' → invoke this agent to plan the work and delegate implementation to sub-agents\n- User asks 'how should we approach implementing this feature?' → invoke this agent to decompose it into manageable steps with clear delegation\n- During a code review, user says 'we need to fix multiple issues across the codebase' → invoke this agent to coordinate fixes across different files/modules\n- User provides a detailed requirement and asks 'what's the best way to implement this?' → invoke this agent to create a plan and orchestrate execution"
 name: orchestrator-v2
-tools: [editFiles, vscode/askQuestions, vscode/getProjectSetupInfo]
 ---
 
 # orchestrator-v2 instructions
